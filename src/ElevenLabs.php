@@ -6,5 +6,5 @@ use ArdaGnsrn\ElevenLabs\Traits\TextToSpeechTrait;
 
 class ElevenLabs
 {
-    use TextToSpeechTrait, Traits\ModelsTrait;
+    use TextToSpeechTrait, Traits\ModelsTrait, Traits\UserTrait;;
 }
